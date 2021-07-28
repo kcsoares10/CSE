@@ -7,7 +7,7 @@ using System.IO;
 namespace OWASP.WebGoat.NET
 {
     // VAI!
-    public class IOHelper
+    /**public class IOHelper
     {
         public static string ReadAllFromFile(string path)
         {
@@ -16,6 +16,6 @@ namespace OWASP.WebGoat.NET
             string data = sr.ReadToEnd();
             sr.Close();
             return data;
-        }
+        }*/
     }
 }
